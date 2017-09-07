@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>企业详情</title>
+	<link rel="stylesheet" type="text/css" href="../css/linkage.css">
+	<link rel="stylesheet" type="text/css" href="../css/title_foot.css"/>
+	<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+	<script type="text/javascript" src="../js/linkage.js"></script>
+	<script type="text/javascript" src="../js/homepage_1.js"></script>
+</head>
+<body>
+	
+<!-- 登录注册 -->
+<div class="cover"></div>
+<div class="reg_log">
+	<div class="regist_face">
+		<span class="close">×</span>
+		<ul class="regist_ul">
+			<li class="click_li">手机注册</li>
+			<li class="noclick_li">邮箱注册</li>
+		</ul>
+		<div class="pho_log">
+			<ul class="inp_reg">
+				<form>
+					<li><input class="phone_re" type="text" name="" placeholder="手机号"></li>
+					<li><input class="check_re" type="text" name="" placeholder="验证码">
+					<input type="" name="" value="获取验证码" class="acq_check"></li>
+					<li><input class="name_re" type="text" name="" placeholder="昵称"></li>
+					<li><input class="pwd_re" type="password" name="" placeholder="密码"></li>
+					<li><input class="pwda_re" type="password" name=""  placeholder="确认密码"></li>
+				</form>
+			</ul>
+			<div class="two_text">
+				《<a href="termsOfService.html#fuwutiaokuan">服务条款</a>》和《<a href="termsOfService.html#yinsizhengce">诚信准则</a>》
+			</div>
+			<div class="verify">
+				<div class="reminder"><input class="reminder_inp" type="text" name="" value="sdas" readonly="true"></div>
+				<div><span class="creat">创建账号</span></div>
+				<div class="click_log">已有账号? <a class="log_click" href="#">点击登录</a></div>
+			</div>
+		</div>
+
+
+		<div class="ema_log">
+			<ul class="inp_reg">
+				<form>
+					<li><input class="email_re" type="text" name="" placeholder="电子邮件"></li>
+					<li><input class="name1_re" type="text" name="" placeholder="昵称"></li>
+					<li><input class="pwd1_re" type="password" name="" placeholder="密码"></li>
+					<li><input class="pwda1_re" type="password" name=""  placeholder="确认密码"></li>
+				</form>
+			</ul>
+			<div class="two_text">
+				《<a href="termsOfService.html#fuwutiaokuan">服务条款</a>》和《<a href="termsOfService.html#yinsizhengce">诚信准则</a>》
+			</div>
+			<div class="verify">
+				<div class="reminder1"><input class="reminder1_inp" type="text" name="" value="" readonly="true"></div>
+				<div><span class="creat">创建账号</span></div>
+				<div class="click_log">已有账号? <a class="log_click" href="#">点击登录</a></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="log_face">
+		<span class="close">×</span>
+		<div class="text_log">使用邮箱/手机号登录</div>
+		<ul class="inp_log">
+			<form>
+				<li><input class="name_re" type="text" name="" placeholder="邮箱/手机号"></li>
+				<li><input class="pwd_re" type="password" name="" placeholder="密码"></li>
+			</form>
+		</ul>
+		<ul class="three_ul">
+			<form>
+				<li>
+					<input class="check" type="checkbox" name="">
+				<span class="rember">
+				记住我<sup>*</sup>
+				</span>
+				<a class="forget" href="#">忘记密码？
+				</a>
+				</li>
+				<li class="output_li">
+					<input class="output" type="text" name="" value="" readonly="true">
+				</li>
+				<li><input class="immediate" type="button" name="" value="立即登录"></li>
+			</form>
+		</ul>
+		<div class="verify_log">
+			<div class="click_log">没有账号？<a class="regist_click" href="#">点击注册</a></div>
+			<div class="or"><span></span>&nbsp; OR &nbsp;<span></span></div>
+			<div class="use">使用以下账号登录</div>
+		</div>
+		<ul class="third_party">
+			<li class="weibo"></li>
+			<li class="qq"></li>
+			<li class="wechat"></li>
+		</ul>
+	</div>
+</div>
+
+<!-- 导航栏 -->
+	<nav class="navigation" nowrap>
+		<a href="../homepage.html">
+			<img class="logo" src="../images/new_logo.jpg">
+		</a>
+		<ul class="nav_title">
+			<a href="courses.html"><li>课程</li></a>
+			<a href="school.html"><li>院校</li></a>
+			<a href="enterprise.html"><li>企业</li></a>
+			<a href="class/class.html"><li>教材</li></a>
+			<a href="famous_teacher.html"><li>名师</li></a>
+		</ul>
+
+		<div class="nav_mid">
+			<input type="text" class="search" name="" placeholder="课程|机构|讲师">
+			<span class="search_b"></span>
+		</div>
+
+		<div class="nav_right">
+				<a class="top_regist"><span>注册</span></a>
+				<a class="top_log">登录</a>
+		</div>
+	</nav>
+	<div class="line"></div>
+
+<!-- 侧边栏 -->
+	<nav>
+		<div class="middle">
+			<ul class="middle_ul">
+				<a class="im1" >
+				<li></li>
+				</a>
+				<a href="http://www.moocollege.cn/mobileapp/?download_type=ios"><li class="im2"></li></a>
+				<a href="http://www.moocollege.cn/mobileapp/?download_type=android"><li class="im3"></li></a>
+				<a href="http://shang.qq.com/email/stop/email_stop.html?qq=3145342032&sig=d9f5534d96236fc7e4710fcc236af79e91a7e36d3b3059ec&tttt=1"><li class="im4">
+					<div class ="li_cov">
+					<span>我要</span>
+					<span>反馈</span>
+				</div>
+				</li>
+				</a>
+				<a class="top_log"><li class="im5">
+				<div class ="li_cov">
+					<span>我要</span>
+					<span>反馈</span>
+				</div>
+				</li></a>
+			</ul>
+		</div>		
+	</nav>
+	<section>
+		<div class="main">
+			<table class="logo_table">
+				<tr>
+					<td>
+						<img src="../images/linkage_logo.jpg">
+					</td>
+					<td>
+						<ul>
+							<li>
+								<h2>苏州工业园区凌志软件股份有限公司</h2>
+							</li>
+							<li>
+								<h4>已发布职位：2个</h4>
+							</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<ul class="flip_over">
+				<li><button class="company_homepage">公司主页</button></li>
+				<li><button class="zhaopin_position">招聘职位</button></li>
+				<li><button class="enter_course">企业课程</button></li>
+			</ul>
+			<hr class="hr_1">
+			<div class="HomePage">
+				<div class="limit_width">
+					<table class="article">
+						<tr>
+							<td class="introduction" ><p>企业简介</p></td>
+							<td id="box"><p>凌志软件股份有限公司成立于2003年1月，是一家致力于为各行业提供软件产品研发，软件外包开发及IT系统集成服务。业务范围包括证券，银行，保险，电子商务，物流等。金融行业产品研发及软件外包服务的专业性及稳定性，已成为企业的核心竞争力。公司在日本东京、上海、北京、深圳等地均设有分支机构。</p>
+	
+							<p>凌志软件经过10年多的发展，得到现有海内外客户高度认可，并在中国和日本形成了一定的品牌知名度，海外业务以日本市场为核心，已成为国际知名企业的核心供应商，在2011年软件出口企业排行榜中名列第10名，并获得2011-2012年国家规划布局内重点软件企业称号。凌志软件在稳步扩大高端软件外包业务的同时，自主研发国内高端金融产品，现已申请多项发明专利并开发了多款拥有自主知识产权的金融软件产品，投入商业应用并得到客户的高度评价，逐步在国内市场上崭露头角。</p></td>
+						</tr>
+						<tr>
+							<td class="enterprise_show">企业展示</td>
+							<td class="enterprise_show_img_video">
+								<button class="left_btn"><span><</span></button>
+								<img src="../images/linkage_man.jpg" class="enterprise_show_img">
+								<video src="../videos/LINKAGE SOFTWARE.mp4" controls = "controls" class="mv"></video>
+								<button class="right_btn"><span>></span></button>
+							</td>
+						</tr>
+						<tr class="address">
+							<td class="business_address">企业地址</td>
+							<td>苏州工业园区星湖街328号创意产业园17栋</td>
+						</tr>
+					</table>	
+				</div>
+			</div>
+			<div class="recruiting_companies">
+				<table>
+					<tr>
+						<td>
+							<ul>
+								<li><a href="linkage_recruit.html">对日软件开发（提供岗前培训）</a></li>
+								<li><span class="salary">3K - 5K</span> <span class="education">应届毕业生 / 本科 /全职</span></li>
+							</ul>
+						</td>
+						<td class="time">2015-09-17</td>
+						<td class="details"><button class="details_btn"><a href="linkage_recruit.html">了解详情</a></button></td>
+					</tr>
+					<tr>
+						<td>
+							<ul>
+								<li><a href="linkage_recruit_2.html">对日软件开发工程师（提供岗前培训）</a></li>
+								<li><span class="salary">2K - 4K</span> <span class="education">应届毕业生 / 本科 /全职</span></li>
+							</ul>
+						</td>
+						<td class="time">2015-01-03</td>
+						<td class="details"><button class="details_btn"><a href="linkage_recruit_2.html">了解详情</a></button></td>
+					</tr>
+				</table>
+			</div>
+			<div class="enterprise_course">
+				<ul>
+					<li class="li1 left"><img src="../images/java_8_base_pra.png"></li>
+					<li class="li1">
+						<ul class="mid">
+							<li><span class="blod"><a href="java8_course_practise.html">Java 8基础应用与开发项目实训S002</a></span></li>
+							<li><span class="school">锐聘学院</span> <span class="sm">讲师： 刘刚</span></li>
+							<li><span class="sm">本课程是基于《Java 8基础应用与开发》的项目实</span></li>
+							<li>
+								<button class="red_btn"><a href="japanese-outsoursing.html">对日外包开发工程师</a></button>
+								<button class="red_btn"><a href="java-development-engineer.html">Java开发工程师</a></button>
+								<button class="red_btn"><a href="java-development-engineer.html">Java开发工程师</a></button>
+							</li>
+						</ul>
+					</li>
+					<li class="li1 right">
+						<ul>
+							<li><span class="time">开课时间 - 2015/01/01</span></li>
+							<li><button class="look_course"><a href="java8_course_practise.html">查看课程</a></button></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="hr">
+					<hr>
+				</div>
+
+				<ul>
+					<li class="li1 left"><img src="../images/java8_base.jpg"></li>
+					<li class="li1">
+						<ul class="mid">
+							<li><span class="blod"><a href="java8_course_practise.html">Java 8基础应用与开发  S001</a></span></li>
+							<li><span class="school">锐聘学院</span> <span class="sm">讲师： 刘刚</span></li>
+							<li><span class="sm">本课程由浅入深对 Java SE 技术进行系统讲解，强调</span></li>
+							<li>
+								<button class="red_btn"><a href="java-development-engineer.html">Java开发工程师</a></button>
+								<button class="red_btn"><a href="japanese-outsoursing.html">对日外包开发工程师</a></button>
+								<button class="red_btn"><a href="java-development-engineer.html">Java开发工程师</a></button>
+							</li>
+						</ul>
+					</li>
+					<li class="li1 right">
+						<ul>
+							<li><span class="time">开课时间 - 2015/03/01</span></li>
+							<li><button class="look_course"><a href="java8_course_practise.html">查看课程</a></button></li>
+						</ul>
+					</li>
+				</ul>
+
+				<div class="hr">
+					<hr>
+				</div>
+				<ul>
+					<li class="li1 left"><img src="../images/Oracle_Prac.jpg"></li>
+					<li class="li1">
+						<ul class="mid">
+							<li><span class="blod"><a href="http://www.moocollege.cn/courses/MOOCOLLEGE/S204/2015_T1/about?course_base=122&course_package=-1">都市供求信息网Oracle项目实训  S204</a></span></li>
+							<li><span class="school">锐聘学院</span> <span class="sm">讲师： 孙晓晓</span></li>
+							<li><span class="sm">本课程通过项目贯穿，将Oracle的知识点运用到实际</span></li>
+							<li>
+								<button class="red_btn"><a href="japanese-outsoursing.html">对日外包开发工程师</a></button>
+							</li>
+						</ul>
+					</li>
+					<li class="li1 right">
+						<ul>
+							<li><span class="time">开课时间 - 2015/01/01</span></li>
+							<li><button class="look_course"><a href="http://www.moocollege.cn/courses/MOOCOLLEGE/S204/2015_T1/about?course_base=122&course_package=-1">查看课程</a></button></li>
+						</ul>
+					</li>
+				</ul>
+
+				<div class="hr">
+					<hr>
+				</div>
+				<ul>
+					<li class="li1 left"><img src="../images/Java_japan"></li>
+					<li class="li1">
+						<ul class="mid">
+							<li><span class="blod"><a href="java8_course_practise.html">Java 8基础应用与开发项目实训S002</a></span></li>
+							<li><span class="school">锐聘学院</span> <span class="sm">讲师： 刘会斌</span></li>
+							<li><span class="sm">日本で情報業のSEを目指す学生たちに、IT開発技術</span></li>
+							<li>
+								<button class="red_btn"><a href="japanese-outsoursing.html">对日外包开发工程师</a></button>
+							</li>
+						</ul>
+					</li>
+					<li class="li1 right">
+						<ul>
+							<li><span class="time">开课时间 - 2015/01/01</span></li>
+							<li><button class="look_course"><a href="java8_course_practise.html">查看课程</a></button></li>
+						</ul>
+					</li>
+				</ul>
+
+				<div class="hr">
+					<hr>
+				</div>
+				<ul>
+					<li class="li1 left"><img src="../images/S012.jpg"></li>
+					<li class="li1">
+						<ul class="mid">
+							<li><span class="blod"><a href="http://www.moocollege.cn/courses/MOOCOLLEGE/S012/Always/about?course_base=226&course_package=-1">都市生活+JSP项目实训  S012</a></span></li>
+							<li><span class="school">锐聘学院</span> <span class="sm">讲师： 陈露露</span></li>
+							<li><span class="sm">本课程以项目为导向，将前面所学基础知识，运用到实践中</span></li>
+							<li>
+								<button class="red_btn"><a href="japanese-outsoursing.html">对日外包开发工程师</a></button>
+								<button class="red_btn"><a href="java-development-engineer.html">Java开发工程师</a></button>
+								<button class="red_btn"><a href="java-development-engineer.html">Java开发工程师</a></button>
+							</li>
+						</ul>
+					</li>
+					<li class="li1 right">
+						<ul>
+							<li><span class="time">开课时间 - 2015/10/01</span></li>
+							<li><button class="look_course"><a href="http://www.moocollege.cn/courses/MOOCOLLEGE/S012/Always/about?course_base=226&course_package=-1">查看课程</a></button></li>
+						</ul>
+					</li>
+				</ul>
+
+				<div class="hr">
+					<hr>
+				</div>
+				<ul>
+					<li class="li1 left"><img src="../images/I006.jpg"></li>
+					<li class="li1">
+						<ul class="mid">
+							<li><span class="blod"><a href="http://www.moocollege.cn/courses/MOOCOLLEGE/I006/2015_T1/about?course_base=138&course_package=-1">HTML基础应用开发  I006</a></span></li>
+							<li><span class="school">锐聘学院</span> <span class="sm">讲师： 陈露露</span></li>
+							<li><span class="sm">本课程从最基本的概念开始讲起，结合实际项目案</span></li>
+							<li>
+								<button class="red_btn"><a href="japanese-outsoursing.html">对日外包开发工程师</a></button>
+								<button class="red_btn"><a href="java_web_course_practise.html">Web前端开发工程师</a></button>
+							</li>
+						</ul>
+					</li>
+					<li class="li1 right">
+						<ul>
+							<li><span class="time">开课时间 - 2015/04/01</span></li>
+							<li><button class="look_course"><a href="http://www.moocollege.cn/courses/MOOCOLLEGE/I006/2015_T1/about?course_base=138&course_package=-1">查看课程</a></button></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="basic_information">
+			<ul>
+				<li class="basic"><span>基本信息</span></li>
+				<li><img src="../images/people.png"> 100人以上</li>
+				<li><img src="../images/tian.png"> IT/互联网</li>
+				<li><img src="../images/globe.png"> <a href="">http://www.linkstec.com/</a></li>
+			</ul>
+		</div>
+		<div class="course_path">
+			<div class="d1">
+				<img src="../images/bofang.png">
+				<span>推荐职业课程路径</span>
+			</div>
+			<hr class="solid">
+			<div class="d2">
+				<a href="japanese-outsoursing.html">对日外包开发工程师</a>
+			</div>
+			<hr class="dashed">
+		</div>
+	</section>
+	<!-- 底部 -->
+	<footer class="h_footer">
+		<div class="back_">
+			<ul class="footer_l">
+				<a href="intro/intor1.html" class="foot_a"><li>关于我们</li></a>
+				<li><span>|</span></li>
+				<a href="intro/intro.html" class="foot_a"><li>联系我们</li></a>
+				<li><span>|</span></li>
+				<a href="intro/intor2.html" class="foot_a"><li>加入我们</li></a>
+				<li><span>|</span></li>
+				<span class="foot_a"><li>鲁ICP备15002315</li></span>
+			</ul>
+			<ul class="footer_r">
+				<a>
+					<li class="img_1">
+						<img src="../images/foot_ios.png">
+					</li>
+				</a>
+				<a>
+					<li class="img_2">
+						<img src="../images/foot_android.png">
+					</li>
+				</a>
+				<a>
+					<li class="img_3">
+						<img src="../images/foot_weixin.png">
+					</li>
+				</a>
+				<a href="http://weibo.com/moocollegecn?is_hot=1">
+					<li class="img_4">
+						<img src="../images/">
+					</li>
+				</a>
+				<a class="top_log">
+					<li class="img_5">
+						<img src="../images/">
+					</li>
+				</a>
+			</ul> 
+		</div>
+	</footer>
+</body>
+
+<script type="text/javascript">
+		$(function()
+		{
+			$(".close").click(function()
+			{
+				$(".cover").css("display","none");
+				$(".reg_log").css("display","none");
+			})
+		})
+		window.onscroll = function()
+		{
+			 var im1 = document.getElementsByClassName("im1")[0];
+			 var middle = document.getElementsByClassName("middle")[0];
+			 var h_footer = document.getElementsByClassName("h_footer")[0];
+			if(document.body.scrollTop>100){
+				 im1.style.cssText = "display:block;";
+			}else{
+				im1.style.cssText = "display:none;";
+			}
+//			 console.log(h_footer.getBoundingClientRect().top);
+			var juli = h_footer.offsetTop-document.body.scrollTop-311;
+//			console.log("-------"+juli);
+			if(h_footer.getBoundingClientRect().top<566){
+				middle.style.top = juli+'px';
+			}
+		}
+		$(".im1").click(function()
+		{
+			$("body").animate(
+			{
+				scrollTop : "0px",
+			});
+		})
+	</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

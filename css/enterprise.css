@@ -1,0 +1,26 @@
+section *{
+	font-family: "微软雅黑";
+	color: rgb(85,85,85);
+	transition: all 0.2s linear 0s;
+}
+section{
+	width: 1100px;
+	margin: 0 auto;
+}
+.introduction{
+	display: block;
+	margin: 0 auto;
+}
+table{
+	width: 1100px;
+	margin: 20px auto;
+	border-collapse:  separate;
+	border-spacing: 17px;
+}
+table img{
+	width: 205px;
+	height: 110px;
+}
+table td{
+	margin: 20px;
+}

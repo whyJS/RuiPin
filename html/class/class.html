@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>QST青软实训--“在实践中成长”丛书</title>
+		<link rel="stylesheet" type="text/css" href="../../css/class.css"/>
+	</head>
+	<body>
+		<!--弹出框-->
+		<div id="pop_up">
+			<div class="popImg">
+				<div class="popc">×</div>
+				<img src="../../images/pop_up.png" />
+				<a href="http://book.moocollege.cn/java8_sysc.html"><div class="poptext">查看详情</div></a>
+			</div>
+		</div>
+		
+		
+		<!--页眉-->
+		<header>
+			<div class="shixuImg">
+				<a href="class.html"><img src="../../images/qst.png"/></a>
+				<div style="display: inline-block; width: 2px;height: 45px;background-color: rgb(197,195,196);"></div>
+				<a href="class.html"><img src="../../images/sjcz.png"/ style="position: relative;top: -10px;"></a>
+			</div>
+			<div class="shixuRpxy">
+				<a href="../../homepage.html">锐聘学院</a>
+				<img src="../../images/fwrx.png"/>
+			</div>
+		</header>
+		
+		<!--内容-->		
+		<section>
+			<!--轮播图-->
+			<div id="box">
+				<ul>
+					<li><img src="../../images/class1.png"/></li>
+					<li><img src="../../images/class2.png"/></li>
+					<li><img src="../../images/class3.png"/></li>
+					<li><a href="http://book.moocollege.cn/java8_sysc.html"><img src="../../images/class4.png"/></a></li>
+				</ul>
+				<div class="btn">
+				    <div class="left"></div>
+				    <div class="right"></div>
+			    </div>
+			    <div class="nav">
+				    <span class="on"></span>
+				    <span></span>
+				    <span></span>
+				    <span></span>
+			    </div>
+			</div>
+			
+			<!--产品体系-->
+			<div class="cptx">
+				<img src="../../images/cptx.png"/>
+				<br />
+				<p class="p1">“在实践中成长”丛书全面升级——</p>
+				<p class="p2">QST青软实训联合高等教育专家、IT企业技术专家共同编著</p>
+			</div>
+			
+			<!--丛书-->
+            <iframe src="QST/booklist.html" width="100%" height="1050" frameborder="0" scrolling="no"></iframe>
+            
+            <!--课程资源-->
+            <div class="kczy">
+            	<img src="../../images/kczy.png"/>
+            	<p>
+            		本着服务高校教学、服务学生就业、服务企业人才需求的思路，QST青软实训研发部经过多年探索，
+            		根据企业的人才需求计划及高校人才的培养方案，设计出一系列的完整的教学服务产品——包括正规出版教材
+            		（清华大学出版社）、PPT、源代码、教学/考试大纲、教学指导手册、实验手册、实训手册、企业项目手册、
+            		视频、实验设备等。
+            	</p>
+            </div>
+            <!--环形-->
+            <div id="yuan">
+            	<img src="../../images/course.png" class="course"/>
+            	<img src="../../images/in1.png" class="ppt"/>
+            	<img src="../../images/in2.png" class="shiti"/>
+            	<img src="../../images/in3.png" class="video"/>
+            	<img src="../../images/in4.png" class="jiaoxue"/>
+            	<img src="../../images/in5.png" class="jxzd" onclick="jxzd()"/>
+            	<img src="../../images/in6.png" class="sysb"/>
+            	<img src="../../images/in7.png" class="sysc" onclick="sysc()"/>
+            	<img src="../../images/in8.png" class="sxsc" onclick="sxsc()"/>
+            	<img src="../../images/in9.png" class="qyxm" onclick="qysx()"/>
+            	<img src="../../images/in10.png" class="book" style="width: 100px;height: 100px;"/>
+            </div>
+            <!--弹出框-->
+            <div id="gray">
+            	<div id="Img">
+            		<div id="text">
+            			企业
+            			<div id="hide" onclick="hide()">×</div>
+            		</div>
+            	</div>
+            </div>
+            <!--在线订购-->
+            <div class="zxdg">
+            	<img src="../../images/zxdg.png"/>
+            </div>          
+		</section>
+		<script>
+			var oSpan = document.getElementsByTagName('span');
+			var oUl = document.getElementsByTagName('ul')[0];
+			var oBtn = document.getElementsByClassName('btn')[0];
+			var oDiv = oBtn.getElementsByTagName('div');
+			var oBox = document.getElementById('box');
+			var index = 0;
+			var num  = 0;	
+			var timer;
+			play();
+			for(var i=0;i<oSpan.length;i++){
+				oSpan[i].ligoudan = i;
+				oSpan[i].onclick = function(){
+					oSpan[index].className = '';
+					//序列号赋值给index
+					index = this.ligoudan;
+					this.className = 'on';
+
+					oUl.style.marginLeft = -1348*index+"px";
+					
+				}
+			};
+			
+			for(var i=0;i<oDiv.length;i++){
+				oDiv[i].aa = i;
+				oDiv[i].onclick = function(){
+					num = this.aa;
+				    oSpan[index].className = '';
+					if(num == 1){
+						index++;
+						if(index > 3){index=0;}
+						
+					}else{
+						index--;
+						if(index < 0){index=3}
+					}
+					oSpan[index].className = 'on';
+					oUl.style.marginLeft = -1348*index+'px';
+				}
+			}
+			
+			oBox.onmouseover = function(){
+				clearInterval(timer);
+			}
+			oBox.onmouseleave = function(){
+				play();
+			};
+            function play(){
+            	timer = setInterval(function(){
+				oSpan[index].className = '';
+				index++;
+				if(index > 3){index = 0}
+				oSpan[index].className = 'on';								
+				oUl.style.marginLeft = -1348*index+'px';		
+			  },2000);
+            }
+            //一夜歌弹出框
+            var pop = document.getElementById("pop_up");
+            pop.onclick = function(){
+            	pop.style.display = "none";
+            }
+            
+            
+            
+            //弹出框
+            var url = "";
+            var ind = 0;
+            var gra = document.getElementById("gray");
+            var Im = document.getElementById("Img");
+            function jxzd(){
+            	gra.style.display = "block";
+            	Im.style.backgroundImage = "url(../../images/jxzdsc.jpg";
+            };
+            function sysc(){
+            	gra.style.display = "block";
+            	Im.style.backgroundImage = "url(../../images/sysc.jpg)";
+            };
+            function sxsc(){
+            	gra.style.display = "block";
+            	Im.style.backgroundImage = "url(../../images/sxsc.jpg)";
+            };
+            function qysx(){
+            	gra.style.display = "block";
+            	Im.style.backgroundImage = "url(../../images/qyxmsc.jpg)";
+            };
+            function hide(){
+            	gra.style.display = "none";
+            };
+        </script>
+        <iframe src="QST/foot.html" width="100%" height="1050" frameborder="0" scrolling="no"></iframe>
+	</body>
+</html>

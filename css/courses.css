@@ -1,0 +1,249 @@
+section{
+	width: 1100px;
+	margin: auto;
+	margin-top: 20px;
+	font-family: "微软雅黑";
+	position: relative;
+}
+.courses_assort{
+	width: 1100px;
+	height: 228px;
+	font-size: 15px;
+	color: rgb(85,85,85);
+	border: 1px solid rgb(223,223,223);
+}
+.courses_assort ul{
+	width: 1058px;
+	margin:  auto;
+	padding: 20px 0px 20px 0px;
+	list-style: none;
+	/*border: 1px solid red;*/
+	border-bottom: 1px solid rgb(238,238,238);
+}
+.courses_assort ul li{
+	float: left;
+	padding: 7px 10px 7px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.courses_assort ul li:hover{
+	color: rgb(10,94,190);
+	/*color: black;*/
+}
+.courses_assort_content{
+	height: 32px;
+}
+.courses_assort_school{
+	height: 32px;
+}
+.assort_content_choosed,.assort_school_choosed{
+	background: rgb(10,94,190); 
+	color: white;
+}
+.courses_assort ul .assort_content_choosed:hover{
+	color: white;
+}
+.courses_assort ul .assort_school_choosed:hover{
+	color: white;
+}
+.courses_assort_div{
+	width: 100%;
+	height: 68px;
+	background: rgb(245,245,245);
+	margin: auto;
+	margin-top: 14px;
+}
+.courses_assort_table{
+	border-collapse: collapse;
+	/*margin-top: 10px;*/
+	position: relative;
+	top: 16px;
+	left: 20px;
+}
+.courses_assort_table_selected{
+	color: rgb(10,94,190);
+}
+.courses_assort_table td{
+	border: 1px solid rgb(223,223,223);
+	background: white;
+	padding: 10px 20px 10px 20px;
+	cursor: pointer;
+}
+.courses_assort_table td:hover{
+	color: rgb(10,94,190);
+}
+.concrete_courses{
+	width: 1100px;
+	margin: auto;
+	margin-top: 0px;
+	/*position: relative;*/
+}
+.concrete_courses table{
+	/*position: absolute;*/
+	border-collapse: collapse;
+	margin-top: -8px;
+}
+.concrete_courses tr{
+	width: 1100px;
+	height: 218px;
+	border-bottom: 1px solid rgb(223,223,223);
+}
+.concrete_courses td{
+	width: 1100px;
+}
+.concrete_courses td:hover{
+	background: rgb(240,247,254);
+}
+.concrete_course{
+	width: 1100px;
+	height: 150px;
+	float: left;
+	vertical-align: middle;
+}
+.concrete_course a{
+	text-decoration: none;
+	color: rgb(250,103,8);
+}
+.concrete_course_img{
+	width: 266px;
+	height: 150px;
+	/*vertical-align: middle;*/
+}
+.concrete_course_img img{
+	width: 266px;
+	height: 150px;
+}
+.concrete_course_introduction{
+	width: 614px;
+	height: 150px;
+	position: relative;
+	left: 280px;
+	top: -170px;
+}
+.concrete_course_introduction h3{
+	font-size: 20px;
+	color: rgb(85,85,85);
+	font-weight: bolder;
+	/*border: 1px solid black;*/
+}
+.concrete_course_introduction h3:hover{
+	color: rgb(10,94,190);
+}
+.concrete_course_introduction a{
+	/*border: 1px solid black;*/
+	margin: 0;
+	padding: 0;
+}
+.concrete_course_introduction_info{
+	position: relative;top: -15px;
+}
+.concrete_course_introduction p{
+	color: rgb(85,85,85);
+	font-size: 12px;
+	line-height: 24px;
+	/*border: 1px solid red;*/
+}
+.concrete_course_introduction ul{
+	/*float: left;*/
+	position: relative;
+	list-style: none;
+	top: -20px;
+	left: -40px;
+}
+.concrete_course_introduction ul li{
+	float: left;
+	font-size: 12px;
+	padding: 2px 10px 2px 10px;
+	border: 1px solid rgb(250,103,8);
+	border-radius: 4px;
+	color: rgb(250,103,8);
+	margin-right: 24px;
+}
+.concrete_course_introduction ul li:hover{
+	transition: background 0.5s;
+	background: rgb(250,103,8);
+}
+.concrete_course_introduction ul li:hover a{
+	transition: color 0.5s;
+	color: white;
+}
+.concrete_course_check{
+	width: 154px;
+	height: 150px;
+	position: relative;
+	font-size: 12px;
+	color: rgb(184,153,184);
+	top: -330px;
+	left: 930px;
+	text-align: right;
+}
+.concrete_course_check input{
+	width: 98px;
+	height: 40px;
+	background: rgb(10,94,190);
+	color: white;
+	border-radius: 5px;
+	border: none;
+	margin-top: 14px;
+	transition: background 0.5s;
+	cursor: pointer;
+}
+.concrete_course_check input:hover{
+	background: rgb(65,133,211);
+}
+.concrete_courses_pages{
+	position: absolute;
+	margin-left: 500px;
+	margin-bottom: 50px;
+	top: 2480px;
+
+}
+.concrete_courses_pages table{
+	margin: auto;
+	margin-top: -34px;
+	/*width: 322px;*/
+	border-collapse: collapse;
+}
+.concrete_courses_pages table td{
+	/*height: 28px;*/
+	padding: 3px 10px 3px 10px;
+	position: relative;
+	border: 1px solid rgb(191,191,191);
+	color: rgb(51,51,51);
+}
+.concrete_courses_pages_num{
+	cursor: pointer;
+}
+.concrete_courses_pages_num:hover{
+	background: rgb(229,229,229);
+}
+.concrete_courses_pages_num_selected{
+	background: rgb(229,229,229);
+}
+.concrete_page_show{
+	display: block;
+}
+.concrete_page_hide{
+	display: none;
+}
+table[class^="concretepage"]{
+	position: absolute;
+	top: 238px;
+}
+.concrete_img_noborder{
+	width: 1100px;
+	height: 650px;
+	/*border: 1px solid red;*/
+	margin: auto;
+}
+.no-course{
+	/*margin: 0 auto;*/
+	/*margin-top: 50px;*/
+	text-align: center;
+}
+
+footer{
+	position: relative;
+	/*display: none;*/
+	margin-top: 2293px;
+}

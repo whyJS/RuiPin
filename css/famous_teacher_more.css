@@ -1,0 +1,79 @@
+section *{
+	font-family: "微软雅黑";
+	color: rgb(85,85,85);
+	/*transition: all 0.2s linear 0s;*/
+}
+section{
+	width: 1100px;
+	text-align: center;
+	z-index: -1;
+	margin: 0 auto;
+}
+.title{
+	display: block;
+	font-size: 60px;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	font-weight: 900;
+	color:rgb(255,209,64);
+}
+.more_teacher{
+	margin: 0 auto;
+	border-collapse: separate;
+	border-spacing: 60px;
+}
+.more_teacher td{
+	border: 4px solid rgb(88,170,254);
+	width: 460px;
+	height: 385px;
+}
+.limit_width{
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid white;
+	position: relative;
+}
+.more_teacher img{
+	width: 170px;
+	height: 170px;
+	border-radius: 85px;
+}
+.more_teacher li{
+	list-style: none;
+}
+.more_teacher .left{
+	float: left;
+	position: absolute;
+	left: -25px;
+}
+.more_teacher .left li{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: left;
+}
+.more_teacher .right {
+	float: right;
+}
+.limit_width hr{
+	margin-top: 200px;
+	border: 0px;
+	height: 1px;
+	background: rgb(153,153,153);
+}
+.limit_width p{
+	text-align: left;
+}
+.more_teacher .left  .name{
+	font-size: 25px;
+	font-weight: 900;
+}
+.more_teacher .left .interlinkage{
+	font-size: 18px;
+	text-decoration: none;
+	color:rgb(22,138,255) ;
+}
+
+
+
+
+

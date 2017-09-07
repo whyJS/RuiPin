@@ -1,0 +1,61 @@
+body{
+	background: rgb(243,243,243);
+}
+section{
+	width: 1100px;
+	margin: auto;
+	font-family: "微软雅黑";
+	/*border: 1px solid red;*/
+}
+section header{
+	/*height: 77px;*/
+	margin: auto;
+	/*border: 1px solid ;*/
+}
+.instruction-tittle{
+	/*margin-top: 50px;*/
+	display: block;
+	line-height: 51px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: normal;
+	color: rgb(46,45,41);
+	/*background: red;*/
+}
+.instruction section{
+	width: 712px;
+	background: white;
+	border-top: 1px solid rgb(102,102,102);
+	padding-top: 16px;
+	padding-left: 94px;
+	padding-right: 94px;
+	/*width: 704px;*/
+	/*margin: auto;*/
+}
+p{
+	color: rgb(46,45,41);
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+.other-content{
+	color: rgb(155,50,134);
+}
+.other-content:hover{
+	transition: color 0.5s;
+	color: rgb(65,133,211);
+}
+h3{
+	font-size: 20px;
+	color: rgb(88,87,84);
+	margin-top: 36px;
+}
+section ul{
+	list-style-type: none;
+}
+section ul li{
+	color: rgb(46,45,41);
+	line-height: 24px;
+}
+footer{
+	margin-top: -14px;
+}

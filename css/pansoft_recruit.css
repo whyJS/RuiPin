@@ -1,0 +1,194 @@
+section *{
+	font-family: "微软雅黑";
+	/*color: rgb(85,85,85);*/
+	transition: all 0.2s linear 0s;
+}
+body{
+	background: rgb(243,243,243);
+}
+section{
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+}
+.details{
+	width: 800px;
+	background: white;
+	/*height: 600px;*/
+	display: inline-block;
+}
+.triangle{
+	position: absolute;
+	top: 21px;
+	left: 40px;
+}
+.post{
+	display: inline-block;
+	width: 220px;
+	height: 90px;
+	position: relative;
+	background: rgb(70,147,219);
+	left: 49px;
+	top: -9px;
+	color: white;
+}
+.post h3{
+	margin: 20px;
+	line-height: 25px;
+}
+.main{
+	width:88%;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	margin-top: -20px;
+}
+.main .salary{
+	color: red;
+}
+.main .article p{
+	margin-bottom: 30px;
+	line-height: 40px;
+}
+.main .article a{
+	text-decoration: none;
+	color: rgb(10,109,206);
+}
+.main hr{
+	border: 2px dashed rgb(223,223,223);
+	margin-top: 35px;	
+}
+.details .time{
+	position: absolute;
+	left: 630px;
+	top: 40px;
+	font-size: 20px;
+	font-weight: 900;
+	color: rgb(153,153,153);
+}
+.synopsis{
+	font-size: 18px;
+}
+.synopsis span{
+	margin-right: 15px;
+	position: relative;
+	top: -2px;
+	color: rgb(85,85,85);
+}
+.entice{
+	font-size: 20px;
+	color: rgb(85,85,85);
+}
+.article{
+	width: 100%;
+	font-size: 18px;
+	color: rgb(85,85,85);
+}
+.corporation_essentials{
+	display: inline-block;
+	width: 270px;
+	/*height: 370px;*/
+	background: white;
+	position: absolute;
+	top: 30px;
+	left: 830px;
+	color: rgb(85,85,85);
+	border-bottom: 2px solid rgb(223,223,223);
+}
+.corporation_essentials .limit_width{
+	/*border: 1px solid black;*/
+	width: 80%;
+	margin: 0 auto;
+}
+.corporation_essentials li{
+	list-style: none;
+	margin-left: -35px;
+	padding-left: 0px;
+	margin-bottom: 10px;
+}
+.corporation_essentials p{
+	line-height: 30px;
+}
+.corporation_essentials .name{
+	text-decoration: none;
+	color: black;
+}
+.corporation_essentials .website{
+	text-decoration: none;
+	color: rgb(10,94,190);
+}
+.corporation_essentials img{
+	width: 79px;
+	height: 79px;
+}
+.corporation_essentials hr{
+	border: 1px solid rgb(223,223,223);
+}
+.recommend_occupation{
+	width: 270px;
+	background: white;
+	position: absolute;
+	top: 440px;
+	left: 830px;
+	border-bottom: 2px solid rgb(223,223,223);
+}
+.recommend_occupation img{
+	margin-top:20px;
+}
+.recommend_occupation .limit_width{
+	width: 80%;
+	margin: 0 auto;
+}
+.recommend_occupation .big{
+	color: rgb(10,94,194);
+	font-size: 20px;
+}
+.recommend_occupation hr{
+	border: 1px solid rgb(223,223,223);
+}
+.recommend_occupation .small a{
+	color: rgb(10,94,190);
+	text-decoration: none;
+}
+.recommend_occupation .small{
+	display: block;
+	margin-top: 20px;
+}
+.recommend_occupation .hr_2{
+	border: 1px dashed rgb(223,223,223);
+	margin-top:15px ;
+}
+
+.recommend_course{
+	width: 270px;
+	background: white;
+	position: absolute;
+	top: 600px;
+	left: 830px;
+	border-bottom: 2px solid rgb(223,223,223);
+}
+.recommend_course img{
+	margin-top:20px;
+}
+.recommend_course .limit_width{
+	width: 80%;
+	margin: 0 auto;
+}
+.recommend_course .big{
+	color: rgb(10,94,194);
+	font-size: 20px;
+}
+.recommend_course hr{
+	border: 1px solid rgb(223,223,223);
+}
+.recommend_course .small a{
+	color: rgb(10,94,190);
+	text-decoration: none;
+}
+.recommend_course .small{
+	display: block;
+	margin-top: 20px;
+}
+.recommend_course .hr_2{
+	border: 1px dashed rgb(223,223,223);
+	margin-top:15px ;
+}

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>IOS案例开发|锐聘学院</title>
+		<link rel="stylesheet" type="text/css" href="../css/title_foot.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/data_structure_basis_course_practise.css"/>
+		<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="../js/data_structure_basis_course_practise.js"></script>
+		<script type="text/javascript" src="../js/homepage_1.js"></script>
+	</head>
+	<body>
+<!-- 登录注册 -->
+<div class="cover"></div>
+<div class="reg_log">
+	<div class="regist_face">
+		<span class="close">×</span>
+		<ul class="regist_ul">
+			<li class="click_li">手机注册</li>
+			<li class="noclick_li">邮箱注册</li>
+		</ul>
+		<div class="pho_log">
+			<ul class="inp_reg">
+				<form>
+					<li><input class="phone_re" type="text" name="" placeholder="手机号"></li>
+					<li><input class="check_re" type="text" name="" placeholder="验证码">
+					<input type="" name="" value="获取验证码" class="acq_check"></li>
+					<li><input class="name_re" type="text" name="" placeholder="昵称"></li>
+					<li><input class="pwd_re" type="password" name="" placeholder="密码"></li>
+					<li><input class="pwda_re" type="password" name=""  placeholder="确认密码"></li>
+				</form>
+			</ul>
+			<div class="two_text">
+				《<a href="termsOfService.html#fuwutiaokuan">服务条款</a>》和《<a href="termsOfService.html#yinsizhengce">诚信准则</a>》
+			</div>
+			<div class="verify">
+				<div class="reminder"><input class="reminder_inp" type="text" name="" value="sdas" readonly="true"></div>
+				<div><span class="creat">创建账号</span></div>
+				<div class="click_log">已有账号? <a class="log_click" href="#">点击登录</a></div>
+			</div>
+		</div>
+
+
+		<div class="ema_log">
+			<ul class="inp_reg">
+				<form>
+					<li><input class="email_re" type="text" name="" placeholder="电子邮件"></li>
+					<li><input class="name1_re" type="text" name="" placeholder="昵称"></li>
+					<li><input class="pwd1_re" type="password" name="" placeholder="密码"></li>
+					<li><input class="pwda1_re" type="password" name=""  placeholder="确认密码"></li>
+				</form>
+			</ul>
+			<div class="two_text">
+				《<a href="termsOfService.html#fuwutiaokuan">服务条款</a>》和《<a href="termsOfService.html#yinsizhengce">诚信准则</a>》
+			</div>
+			<div class="verify">
+				<div class="reminder1"><input class="reminder1_inp" type="text" name="" value="" readonly="true"></div>
+				<div><span class="creat">创建账号</span></div>
+				<div class="click_log">已有账号? <a class="log_click" href="#">点击登录</a></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="log_face">
+		<span class="close">×</span>
+		<div class="text_log">使用邮箱/手机号登录</div>
+		<ul class="inp_log">
+			<form>
+				<li><input class="name_re" type="text" name="" placeholder="邮箱/手机号"></li>
+				<li><input class="pwd_re" type="password" name="" placeholder="密码"></li>
+			</form>
+		</ul>
+		<ul class="three_ul">
+			<form>
+				<li>
+					<input class="check" type="checkbox" name="">
+				<span class="rember">
+				记住我<sup>*</sup>
+				</span>
+				<a class="forget" href="#">忘记密码？
+				</a>
+				</li>
+				<li class="output_li">
+					<input class="output" type="text" name="" value="" readonly="true">
+				</li>
+				<li><input class="immediate" type="button" name="" value="立即登录"></li>
+			</form>
+		</ul>
+		<div class="verify_log">
+			<div class="click_log">没有账号？<a class="regist_click" href="#">点击注册</a></div>
+			<div class="or"><span></span>&nbsp; OR &nbsp;<span></span></div>
+			<div class="use">使用以下账号登录</div>
+		</div>
+		<ul class="third_party">
+			<li class="weibo"></li>
+			<li class="qq"></li>
+			<li class="wechat"></li>
+		</ul>
+	</div>
+</div>
+
+<!-- 导航栏 -->
+	<nav class="navigation" nowrap>
+		<a href="../homepage.html">
+			<img class="logo" src="../images/new_logo.jpg">
+		</a>
+		<ul class="nav_title">
+			<a href="courses.html"><li>课程</li></a>
+			<a href="school.html"><li>院校</li></a>
+			<a href="enterprise.html"><li>企业</li></a>
+			<a href="class/class.html"><li>教材</li></a>
+			<a href="famous_teacher.html"><li>名师</li></a>
+		</ul>
+
+		<div class="nav_mid">
+			<input type="text" class="search" name="" placeholder="课程|机构|讲师">
+			<span class="search_b"></span>
+		</div>
+
+		<div class="nav_right">
+				<a href="#" class="top_regist"><span>注册</span></a>
+				<a href="#" class="top_log">登录</a>
+		</div>
+	</nav>
+	<div class="line"></div>
+
+<!-- 侧边栏 -->
+	<div class="middle">
+		<ul class="middle_ul">
+			<a class="im1" >
+			<li></li>
+			</a>
+			<a href="http://www.moocollege.cn/mobileapp/?download_type=ios"><li class="im2"></li></a>
+			<a href="http://www.moocollege.cn/mobileapp/?download_type=android"><li class="im3"></li></a>
+			<a href="http://shang.qq.com/email/stop/email_stop.html?qq=3145342032&sig=0641ab21e1aaeabd3a65e9f41d917c3b1954a5a37f443c31&tttt=1"><li class="im4">
+				<div class ="li_cov">
+				<span>我要</span>
+				<span>反馈</span>
+			</div>
+			</li>
+			</a>
+			<a class="top_log"><li class="im5">
+			<div class ="li_cov">
+				<span>我要</span>
+				<span>反馈</span>
+			</div>
+			</li></a>
+		</ul>
+	</div>
+		<section>
+			<div class="topic">
+				<div class="limit_width">
+					<table>
+						<tr>
+							<td><img src="../images/date.jpg" alt="" class="img_big"/></td>
+							<td>
+								<ul>
+									<li class="title">数据结构基础</li>
+									<li class="synopsis">数据结构课程是计算机类专业的专业基础课程，在IT人才培养中，起着重要的作用。课程按照大学计算机类专业课程大纲的要求，安排教学内容，满足需要系统学习数据结构的人。</li>
+									<li>
+										<a class="top_log"><button class="btn">开始学习</button></a>
+									</li>
+								</ul>
+							</td>
+						</tr>
+					</table>				
+				</div>
+			</div>
+			<div class="mainstay">
+				<div class="limit_width">
+					<ul>
+						<li><h1>课程简介</h1></li>
+						<li><h3>关于本课</h3></li>
+						<li>
+							<p>本课程的目标是帮助学
+								习者系统掌握数据结构课
+								程的相关知识，具备利用这些
+								知识分析问题、解决问题的能力
+								。本课包括线性表、栈、队列、串、树
+								、图等数据结构的逻辑特征、物理存储及基本
+								运算、经典算法的实现，查找、排序等基本问题
+								的求解算法，满足数据结构学习者的需求
+								。课程提供视频、课件、例程、自测、实践要
+								求、参考解答等整套的解决方案，帮助
+								学习者达到掌握数据结构，并能够解
+								决实际问题的目标。
+							</p>
+						</li>
+						<li><h3>主讲教师</h3></li>
+						<li>
+							<table>
+								<tr>
+									<td><img src="../images/helijian.png" alt="" class="teacher_img"/></td>
+									<td>
+										<span class="name">贺利坚</span>
+										<p class="teacher_about">烟台大学计算机学院与控制
+											工程学院副教授，博士。二
+											十余年高校教龄，专注教育，致力
+											于带领和帮助大学生改变学习，学
+											会自主、自立，找到专属于自己的空间。长
+											年为IT学子义务咨询，著书《逆袭大学
+											：传给IT学子的正能量》，帮助处于迷茫中
+											的大学生。在专业教学中，专注计算机类专业的基
+											础教育，建设了《C语言及程序设计》、《C++语言基
+											础》、《数据结构》等课程的全套视频、自测、实践体系，
+											一方面为校内开展翻转课堂教学法改革作支
+											撑，另外，也让更多人得到系统学习大学课程的
+											机会。让喜欢IT的年轻人会编程，为
+											迷茫的大学生出主意，一起追求快乐与激情的大学。</p>
+									</td>
+								</tr>
+							</table>
+						</li>
+						<li><h3>课程目录</h3></li>
+						<li class="section">
+							<img src="../images/B9DAE754-12D1-47C3-B950-7138B2D35908.png" alt="" />
+							<span>第一章 数据结构和算法</span>
+						</li>
+						<li>
+							<ul>
+								<li>第1节 本章导学</li>
+								<li>第2节 什么是数据结构</li>
+								<li>第3节 算法及其复杂性</li>
+								<li>第4节 算法与数据结构</li>
+								<li>第一章练习</li>
+							</ul>
+						</li>
+						<li class="section">
+							<img src="../images/B9DAE754-12D1-47C3-B950-7138B2D35908.png" alt="" />
+							<span>第二章 线性表</span>
+						</li>
+						<li>
+							<ul>
+								<li>第1节 本章导学</li>
+								<li>第2节 线性表及其逻辑结构</li>
+								<li>第3节 顺序存储的线性表</li>
+								<li>第4节 链式存储的线性表</li>
+								<li>第5节 线性表的应用</li>
+								<li>第二章练习</li>
+							</ul>
+						</li>
+						<li class="section">
+							<img src="../images/B9DAE754-12D1-47C3-B950-7138B2D35908.png" alt="" />
+							<span>第三章 栈和队列</span>
+						</li>
+						<li>
+							<ul>
+								<li>第1节 导学</li>
+								<li>第2节 栈</li>
+								<li>第3节 队列</li>
+								<li>第三章练习</li>
+							</ul>
+						<li class="section">
+							<img src="../images/B9DAE754-12D1-47C3-B950-7138B2D35908.png" alt="" />
+							<span>第四章 串</span>
+						</li>
+						<li>
+							<ul>
+								<li>第1节 串的基本概念</li>
+								<li>第2节 串的存储结构和基本操作的实现</li>
+								<li>第3节 串的模式匹配</li>
+								<li>第四章练习</li>
+							</ul>
+						</li>
+						<li class="section">
+							<img src="../images/B9DAE754-12D1-47C3-B950-7138B2D35908.png" alt="" />
+							<span>第五章 数组与广义表</span>
+						</li>
+						<li>
+							<ul>
+								<li>第1节 数组及特殊矩阵的存储</li>
+								<li>第2节 稀疏矩阵的压缩存储</li>
+								<li>第3节 广义表</li>
+								<li>第五章练习</li>
+							</ul>
+						</li>
+						<li class="section">
+							<img src="../images/B9DAE754-12D1-47C3-B950-7138B2D35908.png" alt="" />
+							<span>第六章 树和二叉树</span>
+						</li>
+						<li>
+							<ul>
+								<li>第1节 导学</li>
+								<li>第2节 树的基本概念与存储结构</li>
+								<li>第3节 二叉树的基本概念</li>
+								<li>第4节 二叉树的存储结构和基本运算的实现</li>
+								<li>第5节 二叉树的遍历</li>
+								<li>第6节 二叉树的构造</li>
+								<li>第7节 线索二叉树</li>
+								<li>第8节 哈夫曼树</li>
+								<li>第六章练习</li>
+							</ul>
+						</li>
+						<li class="section">
+							<img src="../images/B9DAE754-12D1-47C3-B950-7138B2D35908.png" alt="" />
+							<span>第七章 图</span>
+						</li>
+						<li>
+							<ul>
+								<li>第1节 导学</li>
+								<li>第2节 图的基本概念</li>
+								<li>第3节 图的遍历</li>
+								<li>第4节	生成树和最小生成树</li>
+								<li>第5节 最短路径</li>
+								<li>第6节 拓扑排序和AOE网</li>
+								<li>第七章练习</li>
+							</ul>
+						</li>
+						<li class="section">
+							<img src="../images/B9DAE754-12D1-47C3-B950-7138B2D35908.png" alt="" />
+							<span>第八章 查找</span>
+						</li>
+						<li>
+							<ul>
+								<li>第1节 导学</li>
+								<li>第2节 线性表的查找</li>
+								<li>第3节 树表的查找</li>
+								<li>第4节 哈希表和散列结构</li>
+								<li>第八章练习</li>
+							</ul>
+						</li>
+						<li class="section">
+							<img src="../images/B9DAE754-12D1-47C3-B950-7138B2D35908.png" alt="" />
+							<span>第九章 排序</span>
+						</li>
+						<li>
+							<ul>
+								<li>第1节 导学</li>
+								<li>第2节 插入排序</li>
+								<li>第3节 交换排序</li>
+								<li>第4节 选择排序</li>
+								<li>第5节 归并排序</li>
+								<li>第6节 计数排序和基数排序</li>
+								<li>第7节 排序算法的比较和选择</li>
+								<li>第九章练习</li>
+							</ul>
+						</li>
+						<li class="section">
+							<img src="../images/B9DAE754-12D1-47C3-B950-7138B2D35908.png" alt="" />
+							<span>第十章 外部排序</span>
+						</li>
+						<li>
+							<ul>
+								<li>第1节 外排序概述</li>
+								<li>第2节 磁盘排序</li>
+								<li>第3节 磁带排序</li>
+								<li>第十章练习</li>
+							</ul>
+						</li>
+						<li class="section">
+							<img src="../images/B9DAE754-12D1-47C3-B950-7138B2D35908.png" alt="" />
+							<span>第十一章 文件</span>
+						</li>
+						<li>
+							<ul>
+								<li>第1节 文件的基本概念</li>
+								<li>第2节 顺序文件</li>
+								<li>第3节 索引文件</li>
+								<li>第4节 哈希文件</li>
+								<li>第5节 多关键字文件</li>
+								<li>第6节 课程结束语</li>
+								<li>第十一章练习</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="arrange">
+				<table>
+					<tr>
+						<td class="border_bottom">课程名称</td>
+						<td class="border_bottom">2015/11/11</td>
+					</tr>
+					<tr>
+						<td class="border_bottom">学时</td>
+						<td class="border_bottom">4小时/周，8周</td>
+					</tr>
+					<tr>
+						<td class="border_bottom">程度</td>
+						<td class="border_bottom">基础</td>
+					</tr>
+					<tr>
+						<td>学习人数</td>
+						<td>172</td>
+					</tr>
+				</table>
+			</div>
+			<div class="share">
+				<span>分享给朋友</span>
+				<ul>
+					<li><img src="../images/weixin_sharing.929757a6289c.png" alt="" /></li>
+					<li><img src="../images/weibo_sharing.56323a5eb5de.png" alt="" /></li>
+					<li><img src="../images/mail_sharing.d7f89e549aee.png" alt="" /></li>
+				</ul>
+				<img src="../images/erweima5.png" alt=""  class="erweima"/>
+			</div>
+		</section>
+	<!-- 底部 -->
+	<footer class="h_footer">
+		<div class="back_">
+			<ul class="footer_l">
+				<a href="intro/intor1.html" class="foot_a"><li>关于我们</li></a>
+				<li><span>|</span></li>
+				<a href="intro/intro.html" class="foot_a"><li>联系我们</li></a>
+				<li><span>|</span></li>
+				<a href="intro/intor2.html" class="foot_a"><li>加入我们</li></a>
+				<li><span>|</span></li>
+				<span class="foot_a"><li>鲁ICP备15002315</li></span>
+			</ul>
+			<ul class="footer_r">
+				<a>
+					<li class="img_1">
+						<img src="../images/foot_ios.png">
+					</li>
+				</a>
+				<a>
+					<li class="img_2">
+						<img src="../images/foot_android.png">
+					</li>
+				</a>
+				<a>
+					<li class="img_3">
+						<img src="../images/foot_weixin.png">
+					</li>
+				</a>
+				<a href="http://weibo.com/moocollegecn?is_hot=1">
+					<li class="img_4">
+						<img src="../images/">
+					</li>
+				</a>
+				<a class="top_log">
+					<li class="img_5">
+						<img src="../images/">
+					</li>
+				</a>
+			</ul> 
+		</div>
+	</footer>
+	</body>
+<script type="text/javascript">
+		$(function()
+		{
+			$(".close").click(function()
+			{
+				$(".cover").css("display","none");
+				$(".reg_log").css("display","none");
+			})
+		})
+		window.onscroll = function()
+		{
+			 var im1 = document.getElementsByClassName("im1")[0];
+			 var middle = document.getElementsByClassName("middle")[0];
+			 var h_footer = document.getElementsByClassName("h_footer")[0];
+			if(document.body.scrollTop>100){
+				 im1.style.cssText = "display:block;";
+			}else{
+				im1.style.cssText = "display:none;";
+			}
+//			 console.log(h_footer.getBoundingClientRect().top);
+			var juli = h_footer.offsetTop-document.body.scrollTop-311;
+//			console.log("-------"+juli);
+			if(h_footer.getBoundingClientRect().top<566){
+				middle.style.top = juli+'px';
+			}
+		}
+		$(".im1").click(function()
+		{
+			$("body").animate(
+			{
+				scrollTop : "0px",
+			});
+		})
+	</script>
+</html>

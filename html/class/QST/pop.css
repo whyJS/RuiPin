@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ju_zhezhao{position:fixed; top:0; left:0; right:0;bottom:0; background:#000; opacity:0.6; filter:alpha(opacity=60);z-index:11111}
+.ju_tan{position: fixed; top:40%; left:50%; margin:-50px 0 0 -300px; width:550px; z-index:11118}
+
+.ju_tan .close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	display: inline-block;
+	width: 37px;
+	height: 36px;
+	cursor: pointer;
+	background: url(../images/close.png) no-repeat;
+}
+.ju_tan .close:hover {
+	background: url(../images/close_hover.png) no-repeat;
+}
+.pop_img {
+	background: url(http://7xlopf.com1.z0.glb.clouddn.com/pop_up.png) no-repeat;
+	width: 550px;
+	height: 364px;
+}
+.pop_gm {
+	background: url(../images/gm.png) no-repeat;
+	width: 142px;
+	height: 46px;
+	position: absolute;
+	bottom: 15px;
+	left: 220px;
+	cursor: pointer;
+	display: inline-block;
+}
+.pop_gm:hover {
+	background: url(../images/gm_hover.png) no-repeat;
+}

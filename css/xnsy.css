@@ -1,0 +1,106 @@
+body{
+	background-color: rgb(250,250,250);
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	font-family: "微软雅黑";
+	color: #000000;
+}
+/*页眉*/
+.header{
+	background-color: rgb(255,255,255);
+	/*border: 1px solid black;*/
+	width: 1100px;
+	height: 75px;
+	margin: 0 auto;
+}
+.loge{
+	position: relative;
+	top: 15px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	height: 75px;
+	display: inline;
+}
+.input1{
+	width: 200px;
+	height: 30px;
+	outline: none;
+	border: 1px solid #0000FF;
+}
+.button1{
+	width: 40px;
+	height: 34px;
+	background-color: rgb(10,94,190);
+	border-color: rgb(10,94,190);
+	position: relative;
+	top: 3px;
+}
+/*展示区*/
+.room{z-index: 3;
+	border: 1px solid /*rgb(250,250,250)*/red;
+	width: 1100px;
+	height: 300px;
+	position: relative;
+	margin-left: 50%;
+	left: -550px;
+	top: -8px;
+	background-size: 100% 100%;
+}
+/*上一张*/
+.prev{
+	background-image: url(../images/l-btn.png);
+	position: absolute;
+	top: 125px;
+	width: 44px;
+	height: 44px;
+}
+/*下一张*/
+.next{
+	background-image: url(../images/r-btn.png);
+	position: absolute;
+	top: 125px;
+	right: 0px;
+	width: 44px;
+	height: 44px;
+}
+.kecheng{
+	border: 1p solid black;
+	margin: 25px auto;
+	width: 1100px;
+	height: auto;
+}
+.JianJie{
+	width: 1100px; 
+	height: auto; 
+	margin: 30px auto;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: rgb(83,83,83);
+}
+ul{
+	width: 150px;
+	height: auto;
+	position: relative;
+	margin-left: 50%;
+	left: -100px;
+	top: 250px;
+	/*border: 3px solid green;*/
+}
+
+li{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	border-radius: 8px;
+	line-height: 8px;
+	background-color: rgb(192,190,190);
+	opacity: 0.6;
+}
+li:hover{
+	background-color: rgb(32,121,183);
+}
+#on{
+	background-color: rgb(32,121,183);	
+}
